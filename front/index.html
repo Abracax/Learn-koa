@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task2</title>
+</head>
+<body>
+    <div class="container">
+        <h1>求是潮信息管理系统(伪)</h1>
+        <form>
+            密钥：<input id="secret" type="text" placeholder="请在这里输入密钥">
+            <input id="submit" type="submit" value="获取信息">
+        </form>
+
+        <!-- Display info -->
+        信息框
+        <div id="info-container">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <style>
+        form {
+            margin-bottom: 50px;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        #info-container {
+            height: 120px;
+            width: 400px;
+            border: 1px solid #ccc;
+            border-color: #000;
+            padding: 14px;
+        }
+    </style>
+</body>
+</html>

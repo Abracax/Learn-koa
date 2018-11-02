@@ -1,0 +1,7 @@
+node_modules/
+.idea/
+dist/
+config.json
+test.json
+yarn.lock
+.vscode
